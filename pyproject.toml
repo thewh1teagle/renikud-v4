@@ -9,6 +9,7 @@ dependencies = [
     "jiwer>=4.0.0",
     "regex>=2026.2.28",
     "tensorboard>=2.20.0",
+    "setuptools<81",  # tensorboard needs pkg_resources, removed in setuptools 82
     "torch>=2.10.0",
     "tqdm>=4.67.3",
     "transformers[torch]>=5.2.0",
