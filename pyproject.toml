@@ -25,3 +25,8 @@ explicit = true
 torch = [
   { index = "pytorch-cu130", marker = "sys_platform == 'linux' or sys_platform == 'win32'" },
 ]
+
+[tool.uv.workspace]
+members = [
+    "renikud-onnx",
+]
